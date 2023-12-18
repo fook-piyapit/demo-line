@@ -2,9 +2,9 @@ import express from "express";
 import { handleMessageEvent } from "./messageReplied.js";
 
 export const config = {
-  channelSecret: "648d75946a8a29e10f2b15771ad0a7d3", // set channel secret here
+  channelSecret: "", // set channel secret here
   channelAccessToken:
-    "YLl+WUcwdbBSM9SHpk+zFxIwO2axY9vo/dRzj1wdcIyBInqmI2roxzepT1/dTwm1WF52hGipUzJ4Uvg5Tzm/bdlwH52e8GESor7fZRXgcOWCs2Vc3vobF9agPeGnQmqrtDVomlda0uycTIRmGkQLKwdB04t89/1O/w1cDnyilFU=", // set access token here
+    "", // set access token here
 };
 
 const app = express();
