@@ -25,9 +25,9 @@ app.post("/webhook", (req, res) => {
   console.log(req.body);
 
   // handle message event
-  if (req.body.events[0].type === "message") {
-    return handleMessageEvent(req.body.events[0]);
-  }
+  // if (req.body.events[0].type === "message") {
+  //   return handleMessageEvent(req.body.events[0]);
+  // }
 
   return res.sendStatus(200);
 });
